@@ -32,6 +32,11 @@
       * Hold ⌥ key while dragging windows to tile: Off
     * Mission Control
       * Automatically rearrange Spaces based on most recent use: Off
+  * Keyboard
+    * Text Input
+      * Input Sources > Edit...
+        * Toggle off "Add period with double-space"
+        * Toggle off "Use smart quotes and dashes"
   * Spotlight
     * Help Apple Improve Search: Off
   * Trackpad
