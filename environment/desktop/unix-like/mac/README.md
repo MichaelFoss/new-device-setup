@@ -2,6 +2,14 @@
 
 ## Settings
 
+* Shell
+  * Enable TouchID for `sudo` commands
+    1. Edit `/etc/pam.d/sudo_local.template` and uncomment `auth` line
+      * `# auth       sufficient     pam_tid.so`
+      * Template file is used to save settings after MacOS updates
+    2. Copy template file to actual file
+      * `sudo cp /etc/pam.d/sudo_local.template /etc/pam.d/sudo_local`
+      * File will likely *not* exist prior to copying
 * System Preferences
   * Appearance
     * Show scroll bars: Always
