@@ -1,0 +1,27 @@
+
+Description = "Clear Night"
+
+Default = { Colour = "#F0F3F6" }
+Canvas = { Colour = "#20242B" }
+
+Number = { Colour = "#FFAB70", Bold = true }
+String = { Colour = "#FFD166" }
+Escape = { Colour = "#F0B6D5", Bold = true }
+Interpolation = { Colour = "#56DDE0", Bold = true }
+
+PreProcessor = { Colour = "#D8B4FE" }
+StringPreProc = { Colour = "#FFD166" }
+
+LineNum = { Colour = "#8B949E" }
+Operator = { Colour = "#F0F3F6" }
+
+BlockComment = { Colour = "#D6D3C9", Italic = true }
+LineComment = BlockComment
+
+Keywords = {
+    { Colour = "#56DDE0", Bold = true },
+    { Colour = "#79C0FF", Bold = true },
+    { Colour = "#D8B4FE", Bold = true },
+    { Colour = "#FFAB70", Bold = true },
+}
+
