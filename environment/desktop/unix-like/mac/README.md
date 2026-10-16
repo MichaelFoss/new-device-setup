@@ -73,8 +73,19 @@
       * Add `source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme` to `.zshrc` post-install
   * Casks _(`brew install --cask <caskName>`)_:
     * `qlmarkdown`
+      * Test by looking at a Markdown file
+      * If it doesn't work immediately, launch it from Applications
     * `qlvideo` _(open app in Applications after installing)_
     * `syntax-highlight` _(install with `--no-quarantine` flag)_
+      * Launch it from Applications
+      * Click Colors tab
+      * Click `+` to import a theme
+      * Import `Clear-Night.theme`
+      * Click "Dark" from Style button group
+      * Click General tab
+      * Select "HTML" Render engine
+      * Click Dark Color scheme and pick Clear Night
+      * Press ⌘+S to save changes
     * `youtube-to-mp3`
       * Latest version requires downloading and installing straight from MediaHuman's website;
         brewing causes YouTube downloads to fail
